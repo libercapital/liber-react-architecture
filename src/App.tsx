@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Routes } from 'routes';
 import GlobalStyles from 'styles/global';
 
-function Bootstrap() {
+function App() {
   return (
     <>
       <BrowserRouter>
@@ -15,4 +15,4 @@ function Bootstrap() {
   );
 }
 
-export default Bootstrap;
+export default App;

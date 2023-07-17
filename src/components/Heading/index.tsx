@@ -4,13 +4,10 @@ import { IHeadingProps } from './interfaces';
 import * as S from './styles';
 
 const Heading = ({
-  children,
-  level = 1,
-  italic = false,
-  bold = false,
+  children
 }: IHeadingProps) => {
   return (
-    <S.Heading level={level} italic={italic} bold={bold}>
+    <S.Heading>
       {children}
     </S.Heading>
   );

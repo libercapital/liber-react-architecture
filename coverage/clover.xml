@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1689614588232" clover="3.2.0">
+  <project timestamp="1689614588232" name="All files">
+    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0" elements="1" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="2" files="4" classes="4"/>
+    <package name="react-architecture">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="cypress.config.ts" path="/home/vinnicius/Developer/liber/react-architecture/cypress.config.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      </file>
+      <file name="vite.config.ts" path="/home/vinnicius/Developer/liber/react-architecture/vite.config.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="react-architecture.cypress.support">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="commands.ts" path="/home/vinnicius/Developer/liber/react-architecture/cypress/support/commands.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="e2e.ts" path="/home/vinnicius/Developer/liber/react-architecture/cypress/support/e2e.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+  </project>
+</coverage>
