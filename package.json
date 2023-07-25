@@ -20,21 +20,22 @@
   },
   "dependencies": {
     "axios": "^1.4.0",
-    "date-fns": "^2.30.0",
+    "date-fns": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.1",
+    "react-scripts": "^5.0.1",
     "styled-components": "^6.0.3",
     "vite-tsconfig-paths": "^4.2.0"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^6.4.19",
-    "@storybook/addon-essentials": "^6.4.19",
-    "@storybook/addon-links": "^6.4.19",
-    "@storybook/addon-viewport": "^6.4.19",
-    "@storybook/node-logger": "^6.4.19",
-    "@storybook/preset-create-react-app": "^4.0.1",
-    "@storybook/react": "^6.4.19",
+    "@storybook/addon-actions": "^7.1.1",
+    "@storybook/addon-essentials": "^7.1.1",
+    "@storybook/addon-links": "^7.1.1",
+    "@storybook/addon-viewport": "^7.1.1",
+    "@storybook/node-logger": "^7.1.1",
+    "@storybook/preset-create-react-app": "^7.1.1",
+    "@storybook/react": "^7.1.1",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
@@ -46,8 +47,8 @@
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
     "@vitejs/plugin-react": "^4.0.1",
-    "babel-eslint": "^10.1.0",
-    "cypress": "^12.11.0",
+    "babel-eslint": "10.1.0",
+    "cypress": "12.17.2",
     "eslint": "^8.44.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
@@ -147,5 +148,8 @@
         "statements": 100
       }
     }
+  },
+  "peerDependencies": {
+    "react-refresh": "*"
   }
 }
