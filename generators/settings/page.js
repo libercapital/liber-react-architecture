@@ -20,11 +20,6 @@ module.exports = {
     },
     {
       type: 'add',
-      path: '../src/pages/{{pascalCase name}}/{{pascalCase name}}.spec.tsx',
-      templateFile: 'templates/page/tests.spec.tsx.hbs',
-    },
-    {
-      type: 'add',
       path: '../src/pages/{{pascalCase name}}/components/.gitkeep',
     },
     {

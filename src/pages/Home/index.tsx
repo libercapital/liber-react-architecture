@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <S.Container>
       <img src={LogoImage} alt="Logo" />
-      <Heading level={1}>Welcome to Liber React Architecture</Heading>
+      <Heading>Welcome to Liber React Architecture</Heading>
       <p>
         This project was created to be used as the basis for React applications.
         The architecture was designed aiming at the organization and scalability
@@ -30,15 +30,6 @@ export default function Home() {
         </a>
         .
       </p>
-
-      <S.CreatedBy>
-        <span role="img" aria-label="heart">
-          Created with ❤️ by{' '}
-        </span>
-        <a href="https://vinniciusgomes.com" target="_blank" rel="noreferrer">
-          Vinnicius Gomes
-        </a>
-      </S.CreatedBy>
     </S.Container>
   );
 }

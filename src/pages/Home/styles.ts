@@ -58,20 +58,3 @@ export const Container = styled.div`
     }
   }
 `;
-
-export const CreatedBy = styled.div`
-  margin-top: 2.7rem;
-
-  span {
-    font-size: 1.4rem;
-  }
-
-  a {
-    text-decoration: none;
-    font-size: 1.4rem;
-  }
-
-  @media (max-width: ${breakpoints.medium}) {
-    margin-top: 3rem;
-  }
-`;
